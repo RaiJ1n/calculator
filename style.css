@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9EFDB;
+}
+
+/* container */
+.container{
+    position: relative;
+    max-width: 100%;
+    width: 350px;
+    background-color: #638889;
+    border-radius: 12px;
+    padding: 10px 20px 20px;
+    box-shadow: 0 5px 10px #425b5c;
+    color: #001;
+}
+
+/* display */
+.display{
+    height: 80px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 25px;
+    border:none;
+    outline: none;
+    text-align: right;
+    border-radius: 12px;
+}
+
+/* calcu buttons */
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+}
+.buttons button{
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.buttons button:active{
+    transform: scale(0.95);
+}
+
+.operator{
+    color: #FE7A36;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
